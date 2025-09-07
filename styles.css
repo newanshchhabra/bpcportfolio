@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    height: 90vh;              /* full viewport height */
+    display: flex;
+    justify-content: center;    /* centers horizontally */
+    align-items: center;        /* centers vertically */
+}
+
+.title {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 100; /* bold */
+    font-family: 'Bitcount Grid Double', monospace;
+    z-index: 10;
+}
+
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* centers icons horizontally */
+    gap: 230px;              /* spacing between icons */
+    margin-left: 60px;
+    margin-top: 100px;      /* pushes icons down from the top */
+}
+
+.dreicon {
+    width: 160px;   /* adjust size as needed */
+    height: auto;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.dreicon:hover {
+    transform: scale(1.1); /* zoom effect on hover */
+}
+.sakicon {
+    width: 200px;   /* adjust size as needed */
+    height: auto;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.sakicon:hover {
+    transform: scale(1.1); /* zoom effect on hover */
+}
+
+.anshicon {
+    width: 160px;   /* adjust size as needed */
+    height: auto;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.anshicon:hover {
+    transform: scale(1.1); /* zoom effect on hover */
+}
+
